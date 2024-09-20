@@ -9,5 +9,8 @@ import { Component } from '@angular/core';
 
 })
 export class HomeComponent {
-
+  isClicked:boolean = false;
+  toggleMenu(){
+this.isClicked=!this.isClicked;
+  }
 }
